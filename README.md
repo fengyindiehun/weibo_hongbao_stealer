@@ -1,1 +1,1 @@
-# weibo_hongbao_stealer
+Just For Fun
