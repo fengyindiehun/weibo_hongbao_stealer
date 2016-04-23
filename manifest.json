@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting started example",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.2",
+  "permissions": [ "http://*/*", "https://*/*" ],
+
+  "browser_action": {
+    "default_icon": "leifeng.jpg"
+  },
+
+  "content_scripts": [{
+      "matches": ["http://weibo.com/message/*"],
+      "js": ["leifeng.js"],
+      "run_at": "document_end"
+  }]
+}
